@@ -15,16 +15,19 @@ const Navbar = () => {
             <div>
                 <h1>Ferreteria</h1>
             </div>
-            <div>               
-                <Button handleClick={handleClick} color='red'>Estanterias</Button>
-                <Button handleClick={handleClick} color='blue'>Pinturas</Button>
-                <Button handleClick={handleClick} color='green'>Escaleras</Button>
-                <Button handleClick={handleClick} color='violet'>Hidrolavadoras</Button>
+            <div>        
+                <ul className="nav-list">
+       
+                    <Button handleClick={handleClick} color='red'>Estanterias</Button>
+                    <Button handleClick={handleClick} color='blue'>Pinturas</Button>
+                    <Button handleClick={handleClick} color='green'>Escaleras</Button>
+                    <Button handleClick={handleClick} color='violet'>Hidrolavadoras</Button>
 
-                <CartWidget />
+                    <CartWidget />
+                </ul>
 
             </div>
-            
+                
         </nav>
     )
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import logoImg from "./img/FerreteriaLeal.jpg";
+import logoImg from "./images/FerreteriaLeal.jpg";
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
