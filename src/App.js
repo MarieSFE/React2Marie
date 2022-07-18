@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+// import Counter from './Counter/Counter';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
+  // const imagen = <img src="url" alt="imagen" />
+
   return (
     <div className="App">
-      <header className="App-header OtraClase">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos
-        </p>
-        <button style={{color: 'pink', backgroundColor: 'blue', fontSize: '30px'}}>Boton</button>
-      </header>
+      <Navbar />
+      {/* <Counter /> */}
+      <ItemListContainer greeting='Hola comision 34695'/>
     </div>
   );
 }
