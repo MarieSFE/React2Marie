@@ -1,6 +1,6 @@
 import './App.css';
+import logoImg from "./img/FerreteriaLeal.jpg";
 import Navbar from './components/Navbar/Navbar';
-// import Counter from './Counter/Counter';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
@@ -8,9 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      {/* <Counter /> */}
-      <ItemListContainer greeting='Hola comision 34695'/>
+      <Navbar />      
+      <ItemListContainer greeting='Bienvenido a Ferreteria LEAL'/>
+      <img alt="logo" src={logoImg} />
+
     </div>
   );
 }

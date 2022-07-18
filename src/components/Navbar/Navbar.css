@@ -1,4 +1,15 @@
-.Navbar {
+.nav-main {
+    color: rgb(255, 235, 147);
+    font-size: 20px;    
+}
+
+.nav-list{
+    list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+h1 {
+    color: rgb(109, 169, 218);
+    font-size: 78px;
 }

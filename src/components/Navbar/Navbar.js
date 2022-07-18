@@ -1,7 +1,6 @@
 import './Navbar.css'
-// import React from 'react'
+
 import Button from '../Button/Button'
-import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
 
@@ -14,15 +13,15 @@ const Navbar = () => {
     return (
         <nav className="Navbar">
             <div>
-                <h1>Ecommerce</h1>
+                <h1>Ferreteria</h1>
             </div>
-            <div>
-                {/* {React.createElement(Button, { label: 'Prueba', color: 'orange'})} */}
-                <Button handleClick={handleClick} color='red'>celulares</Button>
-                <Button color='blue'>tablets</Button>
-                <Button color='green'>notebooks</Button>
+            <div>               
+                <Button handleClick={handleClick} color='red'>Estanterias</Button>
+                <Button handleClick={handleClick} color='blue'>Pinturas</Button>
+                <Button handleClick={handleClick} color='green'>Escaleras</Button>
+                <Button handleClick={handleClick} color='violet'>Hidrolavadoras</Button>
             </div>
-            <CartWidget />
+            
         </nav>
     )
 }
