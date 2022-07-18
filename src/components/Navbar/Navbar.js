@@ -1,6 +1,6 @@
 import './Navbar.css'
-
 import Button from '../Button/Button'
+import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
 
@@ -20,6 +20,9 @@ const Navbar = () => {
                 <Button handleClick={handleClick} color='blue'>Pinturas</Button>
                 <Button handleClick={handleClick} color='green'>Escaleras</Button>
                 <Button handleClick={handleClick} color='violet'>Hidrolavadoras</Button>
+
+                <CartWidget />
+
             </div>
             
         </nav>
