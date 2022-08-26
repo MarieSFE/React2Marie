@@ -1,6 +1,6 @@
 const products = [
     {
-        id: 1,
+        id: '1',
         name: "Estanteria Azul",
         marca: "estantec",        
         category: "Estanterias",
@@ -11,7 +11,7 @@ const products = [
         
     },
     {
-        id: 2,
+        id: '2',
         name: "Estanteria Negra",
         marca: "estantec",        
         category: "Estanterias",
@@ -20,7 +20,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 3,
+        id: '3',
         name: "Estanteria Plateada",
         marca: "estantec",        
         category: "Estanterias",
@@ -29,7 +29,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 4,
+        id: '4',
         name: "Pintura Blanca",
         marca: "estantec",        
         category: "Pinturas",
@@ -38,7 +38,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 5,
+        id: '5',
         name: "Pintura Piletas",
         marca: "estantec",        
         category: "Pinturas",
@@ -47,7 +47,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 6,
+        id: '6',
         name: "Pintura Pisos",
         marca: "estantec",        
         category: "Pinturas",
@@ -56,7 +56,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 7,
+        id: '7',
         name: "Escalera Pintor",
         marca: "estantec",        
         category: "Escaleras",
@@ -65,7 +65,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 8,
+        id: '8',
         name: "Escalera Movil",
         marca: "estantec",        
         category: "Escaleras",
@@ -74,7 +74,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 9,
+        id: '9',
         name: "Escalera Plegable",
         marca: "estantec",        
         category: "Escaleras",
@@ -83,7 +83,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 10,
+        id: '10',
         name: "Carretilla Simple",
         marca: "estantec",        
         category: "Carros",
@@ -92,7 +92,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 11,
+        id: '11',
         name: "Carretilla Vertical",
         marca: "estantec",        
         category: "Carros",
@@ -101,7 +101,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 12,
+        id: '12',
         name: "Carro Plegable",
         marca: "estantec",        
         category: "Carros",
@@ -111,7 +111,7 @@ const products = [
     },
    
     {
-        id: 13,
+        id: '13',
         name: "Hidrolavadora simple",
         marca: "estantec",        
         category: "Hidrolavadora",
@@ -120,7 +120,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 14,
+        id: '14',
         name: "Hidrolavadora Autonoma",
         marca: "estantec",        
         category: "Hidrolavadora",
@@ -129,7 +129,7 @@ const products = [
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
     {
-        id: 15,
+        id: '15',
         name: "Hidrolavadora Bosch",
         marca: "estantec",        
         category: "Hidrolavadora",
@@ -143,6 +143,14 @@ export const getProductsDeAlfredo = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products)
+        }, 500)
+    })
+}
+
+export const getProductsByCategory = (categoryId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.filter(prod => prod.category === categoryId))
         }, 500)
     })
 }

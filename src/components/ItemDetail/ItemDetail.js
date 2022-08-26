@@ -5,3 +5,5 @@ const ItemDetail = ({ name }) => {
 }
 
 export default ItemDetail
+
+

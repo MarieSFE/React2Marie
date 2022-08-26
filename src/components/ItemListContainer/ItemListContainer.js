@@ -1,29 +1,38 @@
-import './ItemListContainer.css'
 import { useState, useEffect } from 'react'
-import { getProductsDeAlfredo } from '../../asyncMock'
+import { getProductsDeAlfredo, getProductsByCategory } from '../../asyncMock'
+import { useParams } from 'react-router-dom'
 
 import ItemList from '../ItemList/ItemList'
 
 const ItemListContainer = ({ greeting }) => {
     const [products, setProducts] = useState([])
 
-    useEffect(() => {
-        getProductsDeAlfredo().then(products => {
-            setProducts(products)
-        })
-    }, [])
+    const { categoryId } = useParams()
 
-    // const productsComp = products.map(prod => <li key={prod.id}>{prod.name}</li>)
+    useEffect(() => {
+        const asyncFunction = categoryId ? getProductsByCategory : getProductsDeAlfredo
+
+        asyncFunction(categoryId).then(products => {
+            setProducts(products)
+        }).catch(error => {
+            console.log(error)
+        })
+        // if(!categoryId) {
+        //     getProductsDeAlfredo().then(products => {
+        //         setProducts(products)
+        //     })
+        // } else {
+        //     getProductsByCategory(categoryId).then(products => {
+        //         setProducts(products)
+        //     })
+        // }
+    }, [categoryId])
+
     return (
         <>
             <h1>{greeting}</h1>
-            {/* <ul> */}
-                {/* {productsComp} */}
-                {/* {products.map(prod => <li key={prod.id}>{prod.name}</li>)}
-            </ul>         */}
             <ItemList products={products}/>
         </>
-
     )
 }
 

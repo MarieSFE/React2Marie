@@ -1,6 +1,7 @@
 import './Navbar.css'
-import Button from '../Button/Button'
+
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -15,13 +16,18 @@ const Navbar = () => {
             <div>
                 <h1>Ferreteria</h1>
             </div>
+            
             <div>        
                 <ul className="nav-list">
+
+                    <Link to='/'>
+                         ECOMMERCE
+                    </Link>
        
-                    <Button handleClick={handleClick} color='red'>Estanterias</Button>
-                    <Button handleClick={handleClick} color='blue'>Pinturas</Button>
-                    <Button handleClick={handleClick} color='green'>Escaleras</Button>
-                    <Button handleClick={handleClick} color='violet'>Hidrolavadoras</Button>
+                    <Link to='/category/Estanterias'handleClick={handleClick} color='red'>Estanterias</Link>
+                    <Link to='/category/Pinturas' handleClick={handleClick} color='blue'>Pinturas</Link>
+                    <Link to='/category/Escaleras'handleClick={handleClick} color='green'>Escaleras</Link>
+                    <Link to='/category/Hidrolavadoras'handleClick={handleClick} color='violet'>Hidrolavadoras</Link>
 
                     <CartWidget />
                 </ul>
