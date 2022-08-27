@@ -1,41 +1,29 @@
-import './Navbar.css'
-
 import CartWidget from '../CartWidget/CartWidget'
-import { Link } from 'react-router-dom'
+import './Navbar.css'
+import { Link, NavLink } from 'react-router-dom'
 
-const Navbar = () => {
+const NavBar = () => {
 
-    const text = 'hice click'
 
-    const handleClick = () => {
-        console.log(text)
-    }
+  return (
+      <nav className="NavBar" >
 
-    return (
-        <nav className="Navbar">
             <div>
                 <h1>Ferreteria</h1>
             </div>
-            
-            <div>        
-                <ul className="nav-list">
 
-                    <Link to='/'>
-                         ECOMMERCE
-                    </Link>
-       
-                    <Link to='/category/Estanterias'handleClick={handleClick} color='red'>Estanterias</Link>
-                    <Link to='/category/Pinturas' handleClick={handleClick} color='blue'>Pinturas</Link>
-                    <Link to='/category/Escaleras'handleClick={handleClick} color='green'>Escaleras</Link>
-                    <Link to='/category/Hidrolavadoras'handleClick={handleClick} color='violet'>Hidrolavadoras</Link>
-
-                    <CartWidget />
-                </ul>
-
-            </div>
-                
-        </nav>
-    )
+                <Link to='/'>
+                    <h3>Ecommerce</h3>
+                </Link>
+            <div className="Categories">
+              <NavLink to='/category/Estanterias' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Estanterias</NavLink>
+              <NavLink to='/category/Pinturas' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Pinturas</NavLink>
+              <NavLink to='/category/Hidrolavadoras' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Hidrolavadoras</NavLink>
+              <NavLink to='/category/Carros' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Carros</NavLink>
+          </div>
+          <CartWidget />
+      </nav>
+  )
 }
 
-export default Navbar
+export default NavBar

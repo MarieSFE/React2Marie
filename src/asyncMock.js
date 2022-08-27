@@ -114,7 +114,7 @@ const products = [
         id: '13',
         name: "Hidrolavadora simple",
         marca: "estantec",        
-        category: "Hidrolavadora",
+        category: "Hidrolavadoras",
         price: "55000",        
         img: "./img/Hidrolavadora.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
@@ -123,7 +123,7 @@ const products = [
         id: '14',
         name: "Hidrolavadora Autonoma",
         marca: "estantec",        
-        category: "Hidrolavadora",
+        category: "Hidrolavadoras",
         price: "85000",        
         img: "./img/HidrolavadoraAutonoma.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
@@ -132,14 +132,14 @@ const products = [
         id: '15',
         name: "Hidrolavadora Bosch",
         marca: "estantec",        
-        category: "Hidrolavadora",
+        category: "Hidrolavadoras",
         price: "159000",        
         img: "./img/HidrolavadoraBosch.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     }
 ]
 
-export const getProductsDeAlfredo = () => {
+export const getProducts = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products)
