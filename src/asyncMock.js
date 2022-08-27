@@ -4,7 +4,8 @@ const products = [
         name: "Estanteria Azul",
         marca: "estantec",        
         category: "Estanterias",
-        price: "6000",        
+        price: "6000",  
+        stock: 4,      
         img: "./img/Estazul.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     
@@ -15,7 +16,8 @@ const products = [
         name: "Estanteria Negra",
         marca: "estantec",        
         category: "Estanterias",
-        price: "7000",        
+        price: "7000", 
+        stock: 10,       
         img: "./img/Estnegra.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -24,7 +26,8 @@ const products = [
         name: "Estanteria Plateada",
         marca: "estantec",        
         category: "Estanterias",
-        price: "5000",        
+        price: "5000",    
+        stock: 10,    
         img: "./img/Estplateada.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -33,7 +36,8 @@ const products = [
         name: "Pintura Blanca",
         marca: "estantec",        
         category: "Pinturas",
-        price: "5000",        
+        price: "5000",  
+        stock: 10,      
         img: "./img/PinturaBlanca.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -42,7 +46,8 @@ const products = [
         name: "Pintura Piletas",
         marca: "estantec",        
         category: "Pinturas",
-        price: "5500",        
+        price: "5500",  
+        stock: 10,      
         img: "./img/PinturaPiletas.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -51,7 +56,8 @@ const products = [
         name: "Pintura Pisos",
         marca: "estantec",        
         category: "Pinturas",
-        price: "2500",        
+        price: "2500", 
+        stock: 10,       
         img: "./img/PinturaPisos.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -60,7 +66,8 @@ const products = [
         name: "Escalera Pintor",
         marca: "estantec",        
         category: "Escaleras",
-        price: "25000",        
+        price: "25000", 
+        stock: 10,       
         img: "./img/EscaleraPintor.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -69,7 +76,8 @@ const products = [
         name: "Escalera Movil",
         marca: "estantec",        
         category: "Escaleras",
-        price: "35000",        
+        price: "35000",   
+        stock: 10,     
         img: "./img/EscaleraMovil.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -78,7 +86,8 @@ const products = [
         name: "Escalera Plegable",
         marca: "estantec",        
         category: "Escaleras",
-        price: "40000",        
+        price: "40000",  
+        stock: 10,      
         img: "./img/EscaleraPlegable.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -87,7 +96,8 @@ const products = [
         name: "Carretilla Simple",
         marca: "estantec",        
         category: "Carros",
-        price: "5000",        
+        price: "5000",  
+        stock: 10,      
         img: "./img/Carretilla.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -96,7 +106,8 @@ const products = [
         name: "Carretilla Vertical",
         marca: "estantec",        
         category: "Carros",
-        price: "9000",        
+        price: "9000",
+        stock: 10,        
         img: "./img/CarretillaVertical.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -105,7 +116,8 @@ const products = [
         name: "Carro Plegable",
         marca: "estantec",        
         category: "Carros",
-        price: "8000",        
+        price: "8000",  
+        stock: 10,      
         img: "./img/CarroPlegable.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -115,7 +127,8 @@ const products = [
         name: "Hidrolavadora simple",
         marca: "estantec",        
         category: "Hidrolavadoras",
-        price: "55000",        
+        price: "55000",
+        stock: 10,        
         img: "./img/Hidrolavadora.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -124,7 +137,8 @@ const products = [
         name: "Hidrolavadora Autonoma",
         marca: "estantec",        
         category: "Hidrolavadoras",
-        price: "85000",        
+        price: "85000",
+        stock: 10,        
         img: "./img/HidrolavadoraAutonoma.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     },
@@ -133,7 +147,8 @@ const products = [
         name: "Hidrolavadora Bosch",
         marca: "estantec",        
         category: "Hidrolavadoras",
-        price: "159000",        
+        price: "159000", 
+        stock: 10,       
         img: "./img/HidrolavadoraBosch.jpg",
         description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
     }
