@@ -8,8 +8,7 @@ const ItemListContainer = ({ greeting }) => {
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
 
-    const { categoryId } = useParams()
-
+    const { categoryId } = useParams()   
     useEffect(() => {
         setLoading(true)
         const asyncFunction = categoryId ? getProductsByCategory : getProducts
@@ -22,7 +21,6 @@ const ItemListContainer = ({ greeting }) => {
             setLoading(false)
         })  
     }, [categoryId])
-
 
     return (
         <div onClick={() => console.log('click en itemlistcontainer')}>
