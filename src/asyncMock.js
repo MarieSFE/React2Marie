@@ -7,8 +7,8 @@ const products = [
         price: "6000",  
         stock: 4,      
         img: "./img/Estazul.jpg",
-        description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
-    
+        description:  "Descripcion estanteria azul",
+        online: "https://m.media-amazon.com/images/I/61eV4ms5aaL._AC_SX425_.jpg"
         
     },
     {
@@ -39,7 +39,8 @@ const products = [
         price: "5000",  
         stock: 10,      
         img: "./img/PinturaBlanca.jpg",
-        description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
+        description:  "Descripcion pintura blanca",
+        online: "https://m.media-amazon.com/images/I/81VkoWJlkCL._AC_SY355_.jpg"
     },
     {
         id: '5',
@@ -69,7 +70,8 @@ const products = [
         price: "25000", 
         stock: 10,       
         img: "./img/EscaleraPintor.jpg",
-        description:  "Lorem ipsum dolor sit amet. Sed voluptatem aliquam qui veritatis optio id numquam consequatur aut modi blanditiis. Et inventore tenetur sed temporibus internos qui quibusdam quam et minima numquam est consequatur similique ut soluta temporibus est aliquam galisum."
+        description:  "Descripcion escalera pintor",
+        online: 'https://m.media-amazon.com/images/I/717T8um2JLL._AC_SX425_.jpg'
     },
     {
         id: '8',
