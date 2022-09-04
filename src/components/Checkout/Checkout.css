@@ -1,0 +1,19 @@
+.enviar {
+    padding: 8px;
+    border-radius: 5px;   
+    background-color: rgb(33, 54, 54);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.Option {
+    margin-top: 10px;
+}
+
+

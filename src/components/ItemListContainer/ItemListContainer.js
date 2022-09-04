@@ -30,15 +30,7 @@ const ItemListContainer = ({ greeting }) => {
             setLoading(false)
         })
 
-        // const asyncFunction = categoryId ? getProductsByCategory : getProducts
-        
-        // asyncFunction(categoryId).then(response => {
-        //     setProducts(response)
-        // }).catch(error => {
-        //     console.log(error)
-        // }).finally(() => {
-        //     setLoading(false)
-        // })  
+       
     }, [categoryId])
 
 
@@ -46,10 +38,7 @@ const ItemListContainer = ({ greeting }) => {
         return <h1>Cargando productos...</h1>
     }
 
-    // if(products.length === 0) {
-    //     return categoryId ? <h1>No hay productos en nuestra categoria {categoryId}</h1> : <h1>No hay productos disponibles</h1>
-    // }
-
+   
     return (
         <div onClick={() => console.log('click en itemlistcontainer')}>
             <h1>{`${greeting} ${categoryId || ''}`}</h1>

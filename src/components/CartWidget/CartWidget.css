@@ -1,9 +1,10 @@
 .CartWidget {
     width: auto;
     padding: 12px;
-    font-size: 8px;
-    background: #d68fff;
-    border-radius: 8px;
+    font-size: 12px;
+    background: #056970;
+    color: white;
+    border-radius: 5px;
     flex: none;
     display: flex;
     order: 1;
