@@ -42,14 +42,15 @@ Esto abrirá un navegador con una web.
 ## Construido usando
 
 - [Create-React-App](https://create-react-app.dev/)
-- [Vercel](https://vercel.com)
+
 - [Firebase](https://firebase.com)
-- [Chakra UI](https://chakra-ui.com/)
+
 
 
 ## Rutas configuradas 
 ruta/ muestra ItemListContainer mostrando todos los productos
-ruta/CategoryId muestra itemListContainer pero filtrando por categoria
+ruta/CategoryId muestra del ItemListContainer el listado filtrado por categoría. Pinturas, escaleras o estanterías en este proyecto 
+ruta/cart muestra todos los elementos del carrito, con opcion a eliminarlos o proceder al checkout con formulario. 
 Detail/productId muestra ItemDetailContainer mostrando el detalle del producto dependiendo del parametro de URL
 
 
@@ -57,22 +58,15 @@ Detail/productId muestra ItemDetailContainer mostrando el detalle del producto d
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/szuviria/zuvcommerce.git
-$ cd zuvcommerce
+$ git clone https://github.com/MarieSFE/React2Marie
 $ npm install
 $ npm start
 ```
+6itemcollection2 es la ultima branck
 
-## Environment Variables
+## GIF
 
-See [`.env.example`](https://github.com/szuviria/zuvcommerce/blob/main/.env.example) for an example.
-
-
-
-## Test App 
-
-[Deploy](https://zuvcommerce.vercel.app)
-
+![AnimationFinalFinal](https://user-images.githubusercontent.com/95248844/188329837-7779ddde-dee2-48d0-8df3-b10c21576f9c.gif)
 
 
 
